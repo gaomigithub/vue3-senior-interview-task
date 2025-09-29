@@ -32,7 +32,7 @@ export default {
       console.log(`[昂贵计算] 正在为 item ${props.id} 格式化时间`);
       // 模拟耗时操作
       let i = 0;
-      while (i < 10000000) {
+      while (i < 1000000000) {
         i++;
       }
       return time.toLocaleTimeString();
@@ -47,3 +47,4 @@ export default {
   },
 };
 </script>
+
